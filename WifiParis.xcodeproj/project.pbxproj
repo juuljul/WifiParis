@@ -12,6 +12,10 @@
 		2B137BD31EEE93F700A39055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B137BD11EEE93F700A39055 /* Main.storyboard */; };
 		2B137BD51EEE93F700A39055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B137BD41EEE93F700A39055 /* Assets.xcassets */; };
 		2B137BD81EEE93F700A39055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B137BD61EEE93F700A39055 /* LaunchScreen.storyboard */; };
+		2B137BE11EEE95A400A39055 /* HotspotWifiParis.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B137BE01EEE95A400A39055 /* HotspotWifiParis.json */; };
+		2B137BE31EEE981300A39055 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B137BE21EEE981300A39055 /* JSON.swift */; };
+		2B137BE51EEE98C000A39055 /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B137BE41EEE98C000A39055 /* VCMapView.swift */; };
+		2B137BE71EEE993800A39055 /* SpotWifi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B137BE61EEE993800A39055 /* SpotWifi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2B137BD41EEE93F700A39055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B137BD71EEE93F700A39055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B137BD91EEE93F700A39055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B137BE01EEE95A400A39055 /* HotspotWifiParis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HotspotWifiParis.json; sourceTree = "<group>"; };
+		2B137BE21EEE981300A39055 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		2B137BE41EEE98C000A39055 /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		2B137BE61EEE993800A39055 /* SpotWifi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotWifi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				2B137BCD1EEE93F700A39055 /* AppDelegate.swift */,
 				2B137BCF1EEE93F700A39055 /* ViewController.swift */,
+				2B137BE41EEE98C000A39055 /* VCMapView.swift */,
+				2B137BE61EEE993800A39055 /* SpotWifi.swift */,
+				2B137BE21EEE981300A39055 /* JSON.swift */,
 				2B137BD11EEE93F700A39055 /* Main.storyboard */,
 				2B137BD41EEE93F700A39055 /* Assets.xcassets */,
+				2B137BDF1EEE951F00A39055 /* Supporting FIles */,
 				2B137BD61EEE93F700A39055 /* LaunchScreen.storyboard */,
-				2B137BD91EEE93F700A39055 /* Info.plist */,
 			);
 			path = WifiParis;
+			sourceTree = "<group>";
+		};
+		2B137BDF1EEE951F00A39055 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				2B137BD91EEE93F700A39055 /* Info.plist */,
+				2B137BE01EEE95A400A39055 /* HotspotWifiParis.json */,
+			);
+			name = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B137BE11EEE95A400A39055 /* HotspotWifiParis.json in Resources */,
 				2B137BD81EEE93F700A39055 /* LaunchScreen.storyboard in Resources */,
 				2B137BD51EEE93F700A39055 /* Assets.xcassets in Resources */,
 				2B137BD31EEE93F700A39055 /* Main.storyboard in Resources */,
@@ -136,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B137BE51EEE98C000A39055 /* VCMapView.swift in Sources */,
+				2B137BE31EEE981300A39055 /* JSON.swift in Sources */,
 				2B137BD01EEE93F700A39055 /* ViewController.swift in Sources */,
 				2B137BCE1EEE93F700A39055 /* AppDelegate.swift in Sources */,
+				2B137BE71EEE993800A39055 /* SpotWifi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
